@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".ModificarAlumnosActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@drawable/edittextbackground"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:textStyle=""
+                android:text="Modificar alumno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:text="Nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <EditText
+                android:id="@+id/etNombreModificarAlumno"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittextbackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:text="Apellidos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <EditText
+                android:id="@+id/etApellidosModificarAlumno"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittextbackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:text="Teléfono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <EditText
+                android:id="@+id/etTelefonoModificarAlumno"
+                android:inputType="number"
+                android:background="@drawable/edittextbackground"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:text="Dirección"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <EditText
+                android:id="@+id/etDireccionModificarAlumno"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittextbackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:text="Fecha Nacimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <EditText
+                android:id="@+id/etFechaNacimientoModificarAlumno"
+                android:hint="Formato: aaaa-mm-dd"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittextbackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:text="DNI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <EditText
+                android:id="@+id/etDNIModificarAlumno"
+                android:background="@drawable/edittextbackground"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="30dp"
+                android:focusable="false"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/btnModificarNuevoAlumno"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="Modificar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

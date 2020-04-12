@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.dam.ssave">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ListarAutorizadosActivity"></activity>
+        <activity android:name=".VerificarTutorEntradaActivity" />
+        <activity android:name=".EntradasCentroAlumnadoActivity" />
+        <activity android:name=".ListarEntradasCentroActivity" />
+        <activity android:name=".ListarSalidasCentroActivity" />
+        <activity android:name=".VentanaPrincipalProfesorActivity" />
+        <activity android:name=".VerificarTutorSalidaActivity" />
+        <activity android:name=".SalidasCentroAlumnadoActivity" />
+        <activity android:name=".EmparejarAlumnosTutoresActivity" />
+        <activity android:name=".AnadirNuevosProfesoresActivity" />
+        <activity android:name=".ModificarProfesoresActivity" />
+        <activity android:name=".ListarProfesoresActivity" />
+        <activity android:name=".LoginProfesorActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ModificarTutoresActivity" />
+        <activity android:name=".ModificarAlumnosActivity" />
+        <activity android:name=".ListarTutoresActivity" />
+        <activity android:name=".ListarAlumnosActivity" />
+        <activity android:name=".AnadirNuevosTutoresActivity" />
+        <activity android:name=".AnadirNuevosAlumnosActivity" />
+        <activity android:name=".VentanaPrincipalAdminActivity" />
+        <activity android:name=".ConfigAdminActivity" />
+        <activity android:name=".RegistrarNuevoAdminActivity" />
+        <activity android:name=".LoginAdminActivity" />
+
+    </application>
+
+</manifest>

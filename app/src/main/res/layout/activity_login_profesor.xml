@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_height="match_parent"
+    tools:context=".LoginProfesorActivity">
+
+
+
+    <EditText
+        android:id="@+id/etDNILoginProfesor"
+        android:layout_margin="20dp"
+        android:hint="DNI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etPasswordLoginProfesor"
+        android:layout_margin="20dp"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnLoginProfesor"
+        android:text="Iniciar Sesión"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <ProgressBar
+        android:id="@+id/progressbarLoginProfesor"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:ignore="MissingConstraints"
+        android:layout_gravity="center">
+
+    </ProgressBar>
+    
+    
+    <Button
+        android:id="@+id/btnAjustesAdmin"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/iconoajustes"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+
+    </Button>
+
+</LinearLayout>
